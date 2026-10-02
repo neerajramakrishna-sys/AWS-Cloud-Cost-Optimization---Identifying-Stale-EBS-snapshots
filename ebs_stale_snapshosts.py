@@ -1,4 +1,4 @@
-import boto3
+import boto3 # AWS SDK for python
 
 def lambda_handler(event, context):
     ec2 = boto3.client('ec2')
